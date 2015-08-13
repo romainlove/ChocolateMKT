@@ -1,0 +1,38 @@
+/* MAIN-BG.CSS contains Background Image paths & definition rules powered by CSS
+–––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––––– */
+.stats-bg{
+    background-image: url('../images/bg/06.jpg');
+}
+.contact-bg {
+    background-image: url('../images/bg/02.jpg');
+}
+.team-01-carousel-item-01{
+    background-image: url('../images/team/01.jpg');
+}
+.team-01-carousel-item-02{
+    background-image: url('../images/team/02.jpg');
+}
+.team-01-carousel-item-03{
+    background-image: url('../images/team/03.jpg');
+}
+.project-01-carousel-item-01{
+	background-image: url('../images/project/project01/01.html');
+}
+.project-01-carousel-item-02{
+	background-image: url('../images/project/project01/02.html');
+}
+.project-01-carousel-item-03{
+	background-image: url('../images/project/project01/03.html');
+}
+.parallax-showcase-01{
+	background-image: url('../images/featured/01.jpg');
+}
+.parallax-showcase-02{
+	background-image: url('../images/featured/02.jpg');
+}
+.parallax-showcase-03{
+	background-image: url('../images/featured/03.jpg');
+}
+.foot-print{
+    background-image: url('../images/footer.jpg');
+}

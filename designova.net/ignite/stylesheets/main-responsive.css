@@ -1,0 +1,336 @@
+/* Media Queries
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+/*
+Note: The best way to structure the use of media queries is to create the queries 
+near the relevant codeFor example, if you wanted to change the styles for buttons
+on small devices, paste the mobile query code up in the buttons section and style it 
+there
+*/
+
+
+/* Larger than Desktop HD */
+@media (max-width: 1200px) {
+}
+
+/* Larger than desktop */
+@media (max-width: 992px) {
+    .container {
+        max-width: 892px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .text-left, .text-right {
+        text-align: center;
+    }
+
+    .img-responsive {
+        display: inline-block;
+    }
+}
+
+/* Larger than tablet */
+@media (max-width: 800px) {
+    .container {
+        max-width: 600px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+
+    .text-left, .text-right, .mastfoot, .credits, .services-item {
+        text-align: center;
+    }
+
+    .img-responsive {
+        display: inline-block;
+    }
+    .works-masonry-container .works-item{
+        width: 100% !important;
+    }
+    .page-section{
+        padding: 100px 0;
+    }
+    .add-top {
+        margin-top: 100px;
+    }
+    .add-top-half {
+        margin-top: 50px;
+    }
+    .add-bottom {
+        margin-bottom: 100px;
+    }
+    .add-bottom-half {
+        margin-bottom: 50px;
+    }
+    .pad-top {
+        padding-top: 100px;
+    }
+    .pad-top-half {
+        padding-top: 50px;
+    }
+    .pad-bottom {
+        padding-bottom: 100px;
+    }
+    .pad-bottom-half {
+        padding-bottom: 50px;
+    }
+    .main-link{
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 21px;
+    }
+    .sub-menu a {
+        font-size: 12px;
+        letter-spacing: normal;
+        line-height: 19px;
+    }
+    .menu-notification span{
+        position: fixed;
+        top: 5px;
+        right: 20px;
+    }
+    nav.mastnav{
+        padding: 30px;
+    }
+    .menu-close-notification span{
+        position: fixed;
+        top: 120px;
+        left: 50%;
+        width: 80px;
+        height: 60px;
+        margin-left: -40px;
+        font-size: 36px;
+    }
+    .promo-text-alt h3 > span, .clientele h3, .project-page-head h3 span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-heading,.promo-text-alt h3, .team-caps h3, 
+    .promo-text h3, .feature-block h3, .project-page-head h3{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .caption-stamp{
+        padding: 10px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .elements-counter{
+        display: block;
+        width: 100%;
+        text-align: center;
+    } 
+    .elements-counter .number, .journal h5{
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 30px;
+    }
+    .elements-counter-wrap .subject{
+        margin-top: 10px;
+    }
+    .services .service-block{
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .services .service-block span{
+        display: inline-block;
+    }
+    .feature-block{
+        padding: 20px;
+    }
+    .works-filter-panel{
+        padding: 30px 0;
+    }
+    .works-filter li{
+        display: block;
+    }
+    .works-masonry-container .works-item{
+        width: 50% !important;
+    }
+    .contact-item{
+        padding: 20px 40px;
+    }
+    footer.mastfoot{
+        padding: 80px 0;
+    }
+    footer.mastfoot h5{
+        font-size: 12px;
+        line-height: 19px;
+    }
+
+}
+
+/*iPhone 6Plus Landscape Mode*/
+@media screen and (max-width: 736px) {
+    .container {
+        max-width: 636px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/*iPhone 6 Landscape Mode*/
+@media screen and (max-width: 667px) {
+    .container {
+        width: 567px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+
+/*Google Nexus and Other Large Smart Phones v1*/
+@media screen and (max-width: 600px) {
+    .container {
+        width: 500px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
+
+/*iPhone Landscape Mode and Mediium Smart Phones*/
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 400px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .page-section{
+        padding: 100px 0;
+    }
+    .add-top {
+        margin-top: 100px;
+    }
+    .add-top-half {
+        margin-top: 50px;
+    }
+    .add-bottom {
+        margin-bottom: 100px;
+    }
+    .add-bottom-half {
+        margin-bottom: 50px;
+    }
+    .pad-top {
+        padding-top: 100px;
+    }
+    .pad-top-half {
+        padding-top: 50px;
+    }
+    .pad-bottom {
+        padding-bottom: 100px;
+    }
+    .pad-bottom-half {
+        padding-bottom: 50px;
+    }
+    .main-link{
+        font-size: 14px;
+        letter-spacing: 1px;
+        line-height: 21px;
+    }
+    .sub-menu a {
+        font-size: 12px;
+        letter-spacing: normal;
+        line-height: 19px;
+    }
+    .menu-notification span{
+        position: fixed;
+        top: 5px;
+        right: 20px;
+    }
+    nav.mastnav{
+        padding: 30px;
+    }
+    .menu-close-notification span{
+        position: fixed;
+        top: 120px;
+        left: 50%;
+        width: 80px;
+        height: 60px;
+        margin-left: -40px;
+        font-size: 36px;
+    }
+    .promo-text-alt h3 > span, .clientele h3, .project-page-head h3 span{
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .main-heading,.promo-text-alt h3, .team-caps h3, 
+    .promo-text h3, .feature-block h3, .project-page-head h3{
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .caption-stamp{
+        padding: 10px;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .elements-counter{
+        display: block;
+        width: 100%;
+        text-align: center;
+    } 
+    .elements-counter .number, .journal h5{
+        font-size: 28px;
+        line-height: 35px;
+        margin-top: 30px;
+    }
+    .elements-counter-wrap .subject{
+        margin-top: 10px;
+    }
+    .services .service-block{
+        padding: 40px 20px;
+        text-align: center;
+    }
+    .services .service-block span{
+        display: inline-block;
+    }
+    .feature-block{
+        padding: 20px;
+    }
+    .works-filter-panel{
+        padding: 30px 0;
+    }
+    .works-filter li{
+        display: block;
+    }
+    .works-masonry-container .works-item{
+        width: 100% !important;
+    }
+    .contact-item{
+        padding: 20px 40px;
+    }
+    footer.mastfoot{
+        padding: 80px 0;
+    }
+    footer.mastfoot h5{
+        font-size: 12px;
+        line-height: 19px;
+    }
+}
+
+/*iPhone 6Plus Portrait Mode*/
+@media screen and (max-width: 414px) {
+    .container {
+        max-width: 374px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/*iPhone 6 Portrait Mode*/
+@media screen and (max-width: 375px) {
+    .container {
+        max-width: 335px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+/*iPhone 5S, 5, 4S & 4 Portrait Mode and Very Small Mobile Phones*/
+@media screen and (max-width: 320px) {
+    .container {
+        max-width: 300px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
